@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Net.Sockets;
 using System.Text.RegularExpressions;
-using BitNak.Concurrent.Utils;
+using Reubs.Concurrent.Utils;
 
-namespace BitNak.DMS
+namespace dms
 {
 	/// <summary>
 	/// Processes Message objects received on the channel. Message objects contain a string that will be parsed as a query.

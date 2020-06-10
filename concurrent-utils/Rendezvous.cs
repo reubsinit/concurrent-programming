@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace BitNak.Concurrent.Utils
+namespace Reubs.Concurrent.Utils
 {
 	/// <summary>
 	/// Utility used to synchronize activity of two threads.
 	/// </summary>
 	/// <remarks>
-	/// <see cref="BitNak.Concurrent.Utils.Barrier"/> for utility to synchronize activity of more than two threads.
+	/// <see cref="Reubs.Concurrent.Utils.Barrier"/> for utility to synchronize activity of more than two threads.
 	/// </remarks>
 	public class Rendezvous: Barrier
 	{

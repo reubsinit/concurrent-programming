@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace BitNak.DMS
+namespace dms
 {
 	public class Request
 	{

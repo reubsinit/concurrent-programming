@@ -1,13 +1,13 @@
 ﻿using System.Threading;
 
-namespace BitNak.Concurrent.Utils
+namespace Reubs.Concurrent.Utils
 {
 	/// <summary>
 	/// A BoundedChannel serves as a thread safe message passing pipeline with a maximum number of messages that may exist on the BoundedChannel at any given time.
 	/// </summary>
 	/// <remarks>
-	/// <see cref="BitNak.Concurrent.Utils.Channel"/> for channel with no boundary.
-	/// <see cref="BitNak.Concurrent.Utils.Semaphore"/> used to enforce channel boundary.
+	/// <see cref="Reubs.Concurrent.Utils.Channel"/> for channel with no boundary.
+	/// <see cref="Reubs.Concurrent.Utils.Semaphore"/> used to enforce channel boundary.
 	/// </remarks>
 	public class BoundedChannel<T>: Channel<T>
 	{

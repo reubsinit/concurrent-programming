@@ -2,7 +2,7 @@
 using System.Text;
 using System.Net.Sockets;
 
-namespace BitNak.DMS
+namespace dms
 {
 	public class IOState
 	{

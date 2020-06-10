@@ -3,9 +3,9 @@ using System;
 using System.Linq;
 using System.IO;
 using System.Collections.Generic;
-using BitNak.Concurrent.Utils;
+using Reubs.Concurrent.Utils;
 
-namespace BitNak.DMS
+namespace dms
 {
 	/// <summary>
 	/// Manages the binary files that represent a single table and index.

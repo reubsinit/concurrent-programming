@@ -3,9 +3,9 @@ using System.IO;
 using System.Net;
 using System.Net.Sockets;
 using System.Collections.Generic;
-using BitNak.Concurrent.Utils;
+using Reubs.Concurrent.Utils;
 
-namespace BitNak.DMS
+namespace dms
 {
 	/// <summary>
 	/// Declaration of public class ConnectionManager - inherits from ActiveObject:

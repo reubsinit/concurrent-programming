@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BitNak.Collections.Generic
+namespace Reubs.Collections.Generic
 {
 	/// <summary>
 	/// A thread safe collection entity that can house data in a queue.

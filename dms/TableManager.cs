@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using BitNak.Concurrent.Utils;
+using Reubs.Concurrent.Utils;
 
-namespace BitNak.DMS
+namespace dms
 {
 	public class TableManager
 	{

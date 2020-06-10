@@ -1,14 +1,13 @@
 ﻿using System;
 using System.Threading;
-using BitNak.Collections.Generic;
 
-namespace BitNak.Concurrent.Utils
+namespace Reubs.Concurrent.Utils
 {
 	/// <summary>
 	/// A Channel serves as a thread safe message passing pipeline.
 	/// </summary>
 	/// <remarks>
-	/// <see cref="BitNak.Concurrent.Utils.BoundedChannel"/> for channel with a boundary.
+	/// <see cref="Reubs.Concurrent.Utils.BoundedChannel"/> for channel with a boundary.
 	/// </remarks>
 	public class Channel<T>
 	{

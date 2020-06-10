@@ -2,7 +2,7 @@ using System;
 using System.Threading;
 using System.Diagnostics;
 
-namespace BitNak.Concurrent.Utils
+namespace Reubs.Concurrent.Utils
 {
 	/// <summary>
 	/// Utility used to control access to activity of a thread.

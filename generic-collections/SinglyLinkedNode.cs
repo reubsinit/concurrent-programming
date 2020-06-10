@@ -1,4 +1,4 @@
-﻿namespace BitNak.Collections.Generic
+﻿namespace Reubs.Collections.Generic
 {
 	/// <summary>
 	/// An element that can be housed within a collection entity.

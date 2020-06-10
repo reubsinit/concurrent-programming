@@ -1,13 +1,13 @@
-namespace BitNak.Concurrent.Utils
+namespace Reubs.Concurrent.Utils
 {
 	/// <summary>
 	/// A ChannelBasedActiveObject serves as a Channel managed by an ActiveObject.
 	/// </summary>
 	/// <remarks>
-	/// <see cref="BitNak.Concurrent.Utils.Channel"/> for Channel utility.
+	/// <see cref="Reubs.Concurrent.Utils.Channel"/> for Channel utility.
 	/// </remarks>
 	/// <remarks>
-	/// <see cref="BitNak.Concurrent.Utils.ActiveObject"/> for ActiveObject utility.
+	/// <see cref="Reubs.Concurrent.Utils.ActiveObject"/> for ActiveObject utility.
 	/// </remarks>
 	public abstract class ChannelBasedActiveObject<T>: ActiveObject
 	{
@@ -55,7 +55,7 @@ namespace BitNak.Concurrent.Utils
 		/// </summary>
 		/// <remarks>
 		/// Data will be de-queued from the Channel and processed.
-		/// <see cref="BitNak.Concurrent.Utils.ChannelBasedActiveObject.Process"/> for how data will be processed.
+		/// <see cref="Reubs.Concurrent.Utils.ChannelBasedActiveObject.Process"/> for how data will be processed.
 		/// </remarks>
 		protected override void Run()
 		{

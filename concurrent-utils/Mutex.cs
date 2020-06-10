@@ -1,13 +1,13 @@
 ﻿using System;
 
-namespace BitNak.Concurrent.Utils
+namespace Reubs.Concurrent.Utils
 {
 	/// <summary>
 	/// Utility used to control access to activity of a thread.
 	/// </summary>
 	/// <remarks>
 	/// Access to activity is controlled by a single token. A thread may act if it can acquire the token.
-	/// <see cref="BitNak.Concurrent.Utils.Semaphore"/> utility if more than a single token is required to control thread activity permission.
+	/// <see cref="Reubs.Concurrent.Utils.Semaphore"/> utility if more than a single token is required to control thread activity permission.
 	/// </remarks>
 	public class Mutex : Semaphore
 	{

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace BitNak.Concurrent.Utils
+namespace Reubs.Concurrent.Utils
 {
 	/// <summary>
 	/// Utility to control life cycle of a single thread.

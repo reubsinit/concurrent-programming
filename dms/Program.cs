@@ -1,7 +1,7 @@
-﻿using BitNak.Concurrent.Utils;
+﻿using Reubs.Concurrent.Utils;
 using System.Collections.Generic;
 
-namespace BitNak.DMS
+namespace dms
 {
 	class MainClass
 	{

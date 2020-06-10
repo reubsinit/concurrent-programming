@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BitNak.Concurrent.Utils
+namespace Reubs.Concurrent.Utils
 {
 	/// <summary>
 	/// Utility used to control thread read and write access.

@@ -1,13 +1,13 @@
 ﻿using System;
 
-namespace BitNak.Concurrent.Utils
+namespace Reubs.Concurrent.Utils
 {
 	/// <summary>
 	/// Utility used to synchronize activity of an undefined number of threads.
 	/// </summary>
 	/// <remarks>
 	/// All threads waiting on the Latch will only continue with activity when the latch is released.
-	/// <see cref="BitNak.Concurrent.Utils.Barrier"/> utility that will synchronize a set number of threads which automatically releases.
+	/// <see cref="Reubs.Concurrent.Utils.Barrier"/> utility that will synchronize a set number of threads which automatically releases.
 	/// </remarks>
 	public class Latch
 	{
